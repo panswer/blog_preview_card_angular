@@ -1,0 +1,9 @@
+.category-component {
+    text-transform: capitalize;
+    font-weight: var(--font-weight-2);
+    font-size: calc(var(--font-size) * 0.80);
+    background-color: var(--color-yellow);
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+}

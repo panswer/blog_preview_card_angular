@@ -1,0 +1,8 @@
+.main-component {
+    min-width: var(--width-mobile);
+    min-height: 100vh;
+    background-color: var(--color-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

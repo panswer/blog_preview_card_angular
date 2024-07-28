@@ -1,0 +1,38 @@
+.card-profile-component {
+    width: 325px;
+    background-color: var(--color-white);
+    padding: 1.25rem;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 1px solid var(--color-gray-dark);
+    box-shadow: 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-profile-component .profile-image {
+    border-radius: 15px;
+    overflow: hidden;
+    height: 170px;
+}
+
+.card-profile-component .profile-category {
+    margin-top: .75rem;
+}
+
+.card-profile-component .profile-date {
+    margin-top: .75rem;
+    font-size: calc(var(--font-size) * 0.7);
+}
+
+.card-profile-component .profile-skylls{
+    margin-top: 0.9rem;
+}
+
+.card-profile-component .profile-description{
+    margin-top: 0.9rem;
+}
+
+.card-profile-component .profile-user {
+    margin-top: 1rem;
+}

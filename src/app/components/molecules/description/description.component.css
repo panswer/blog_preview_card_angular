@@ -1,0 +1,5 @@
+.description-component {
+    color: var(--color-gray-light);
+    font-size: calc(var(--font-size) * 0.9);
+    font-weight: var(--font-weight-1);
+}

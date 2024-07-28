@@ -1,0 +1,16 @@
+.profile-component {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-component .avatar {
+    width: 2rem;
+    height: 2rem;
+    margin-right: .5rem;
+}
+
+.profile-component .name {
+    font-weight: var(--font-weight-2);
+    text-transform: capitalize;
+}

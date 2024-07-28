@@ -1,0 +1,28 @@
+<div class="card-profile-component">
+    <div class="profile-image">
+        <app-image alt="profile image" [src]="profile.image"></app-image>
+    </div>
+    <div class="profile-category">
+        <app-category>
+            {{profile.category}}
+        </app-category>
+    </div>
+    <div class="profile-date">
+        <app-text>
+            Published {{profile.createdAt | date: "dd MMM YYYY"}}
+        </app-text>
+    </div>
+    <div class="profile-skylls">
+        <app-title>HTML & CSS foundations</app-title>
+    </div>
+    <div class="profile-description">
+        <app-description>
+            {{profile.description}}
+        </app-description>
+    </div>
+    <div class="profile-user">
+        <app-profile-name [photo]="profile.photo">
+            {{profile.name}}
+        </app-profile-name>
+    </div>
+</div>
