@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    /* Width */
+    --width-mobile: 375px;
+    --width-desktop: 1440px;
+
+    /* Colors */
+    --color-yellow: hsl(47, 88%, 63%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-gray-light: hsl(0, 0%, 42%);
+    --color-gray-dark: hsl(0, 0%, 7%);
+
+    /* Typography */
+    --font-size: 16px;
+    --font-weight-1: 500;
+    --font-weight-2: 800;
+}
+
+body {
+    margin: 0;
+    font-family: "figtree";
+}
+
+@font-face {
+    font-family: "figtree";
+    src: url("/assets/fonts/Figtree-VariableFont_wght.ttf");
+}
